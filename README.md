@@ -44,8 +44,7 @@ A tarefa foi desenvolver uma API usando Java com Spring Boot para um sistema de 
 ### Pré-requisitos
 - Java 21 ou superior
 - Maven
-- PostgresSQL
-- LocalStack
+- Docker
 
 ### Passos para Executar
 1. **Clonar o Repositório**:
