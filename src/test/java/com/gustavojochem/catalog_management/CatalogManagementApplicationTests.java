@@ -1,10 +1,10 @@
-package com.gustavojochem.desafio_anota_ai;
+package com.gustavojochem.catalog_management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DesafioAnotaAiApplicationTests {
+class CatalogManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

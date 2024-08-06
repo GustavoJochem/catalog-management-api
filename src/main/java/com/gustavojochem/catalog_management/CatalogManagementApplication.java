@@ -1,13 +1,13 @@
-package com.gustavojochem.desafio_anota_ai;
+package com.gustavojochem.catalog_management;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesafioAnotaAiApplication {
+public class CatalogManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesafioAnotaAiApplication.class, args);
+		SpringApplication.run(CatalogManagementApplication.class, args);
 	}
 
 }

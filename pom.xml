@@ -9,23 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gustavojochem</groupId>
-	<artifactId>desafio-anota-ai</artifactId>
+	<artifactId>catalog-management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>desafio-anota-ai</name>
-	<description>Desafio anota ai, feito com SpringBoot, Postgres, AWS SQS e AWS S3</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+	<name>catalog-management</name>
+	<description>API usando Java com Spring Boot para um sistema de gerenciamento de catálogo de produtos em uma aplicação de marketplace.</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
