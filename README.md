@@ -44,7 +44,7 @@ A tarefa foi desenvolver uma API usando Java com Spring Boot para um sistema de 
 ### Pré-requisitos
 - Java 21 ou superior
 - Maven
-- PostgreSQL
+- PostgresSQL
 - LocalStack
 
 ### Passos para Executar
@@ -63,11 +63,16 @@ A tarefa foi desenvolver uma API usando Java com Spring Boot para um sistema de 
     ```bash
     mvn clean install
     ```
+   
+4. **Iniciar os serviços Docker para o banco de dados e o LocalStack**:
+    ```bash
+    docker-compose up -d
+    ```
 
-4. **Executar a Aplicação**:
+5. **Executar a Aplicação**:
     ```bash
     mvn spring-boot:run
     ```
 
-5. **Documentação da API**:
-   A documentação da API estará disponível em `http://localhost:8080/swagger-ui.html` (ou um endpoint similar se estiver usando Springfox/Swagger).
+6. **Documentação da API**:
+   A documentação da API estará disponível em `http://localhost:8080/swagger-ui.html`
