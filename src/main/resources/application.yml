@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-boot-desafio-anota-ai
+  profiles:
+    active: dev
